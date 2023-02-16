@@ -25,7 +25,7 @@ function App() {
           To see styling in Functional Component
         </button>
 
-        <button class="btn btn_class" onClick={handleClickClass}>
+        <button className="btn btn_class" onClick={handleClickClass}>
           To see styling in Class Component
         </button>
       </div>
@@ -36,13 +36,6 @@ function App() {
       </div>
     </div>
   );
-}
-
-{
-  /* <div className="container-box">
-  {!funcCompo ? <FunctionalComponent /> : null}
-  {!classCompo ? <ClassComponent /> : null}
-</div>; */
 }
 
 export default App;
