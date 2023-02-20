@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./Components/Component.css";
-import ClassComponents from "./Components/ClassComponents";
-import FunctionComponents from "./Components/FunctionComponents";
+import "../../Components/Component.css";
+import ClassComponents from "../../Components/ClassComponents";
+import FunctionComponents from "../../Components/FunctionComponents";
 
 function App() {
   // const [funcHidden, setFuncHidden] = useState(true);
